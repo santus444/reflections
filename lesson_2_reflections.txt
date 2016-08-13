@@ -1,0 +1,6 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+It will start the history tracking
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Here files cannot be changed but can only he held onto in order to commit as a group.
