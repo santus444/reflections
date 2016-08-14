@@ -4,3 +4,18 @@ It will start the history tracking
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Here files cannot be changed but can only he held onto in order to commit as a group.
+
+How can you use the staging area to make sure you have one commit per logical change?
+This is by adding only files that belong to that logic to staging and commit then. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches will have a specific change, which we dont want to be included in master yet but need all the changes to be made. 
+
+How do the diagrams help you visualize the branch structure?
+Its like a tree, helping us to understand their structure and jump around if required. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+TO have the new changes available for everyone and push it into production. Its logical as the changes are 'merged' into master. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+When there are no conflicting changes, auto merge is a simple way to get going. 
