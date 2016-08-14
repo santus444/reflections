@@ -3,3 +3,7 @@ When I want to
   - share my work with others
   - collaborate with others. 
   - backup my work in place other than my local machine. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+We might be working on local and would like to wait. 
+We dont want to pull every time some one commits as we might not need that branch or commit. 
