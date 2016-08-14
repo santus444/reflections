@@ -7,3 +7,11 @@ When I want to
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 We might be working on local and would like to wait. 
 We dont want to pull every time some one commits as we might not need that branch or commit. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks: We use this to make a copy of git repository on others github others to ours. 
+Clones: We use this to make a copy to git repository on our local machines from remote git repository like on gitHub. 
+Branches: We use this to make a copy of a local commit to make changes which will not impact the parent code from which is branched. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It will allow us to work offline with remote repo and merge any changes if required. Then push this to remote when possible. 
