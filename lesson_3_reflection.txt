@@ -21,3 +21,6 @@ SVN -  Easier is that we will not have many commands to work with.
 		Harder is , I will not have offline access to repository. 
 Dropbox/File sharing - Easier is that its a simple file sharing system. 
 			Harder is it will be difficult to track if there are more than 2 collaborators. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I dont want the feature to be available to every one and as a standard one in master I would use a branch. The advantage is my changes are isolated and will not break the existing functionality. Disadvantage is I need to do merge and other might not have direct access as soon as I commit to branch unless they choose to check out. 
